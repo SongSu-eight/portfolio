@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <nav>
@@ -20,21 +20,14 @@
     <section id="EDUCATION">
         <h3>EDUCATION </h3>
         <strong>University of California, San Diego </strong>
-        <p>
-            <span>
-                <strong>
-                    Bachelor of Science in Data Science, Minor in Economics &nbsp;&nbsp;&nbsp;
-                </strong>
-            </span> 
-            <span>
-                <time datetime="2027-03">
-                     Expected March 2027
-                </time>
-            </span>
-        </p>
+        <div style="display: flex; justify-content: space-between;">
+            <strong>Bachelor of Science in Data Science, Minor in Economics</strong>
+            <time>Expected March 2027</time>
+        </div>
     </section>
     <section id="SELECTED COURSEWORK">
         <h3>SELECTED COURSEWORK</h3>
+        <ul>
             <li>Recommender Systems & Web Mining | Systems for Scalable Analytics | Causality for ML/AI</li>
             <li>Econometrics A/B/C| International Financial Markets | Short Run Macroeconomics</li>
             <li>Data Analysis & Inference | Data Structures & Algorithms | Linear Algebra</li>
@@ -53,16 +46,10 @@
         <h3>EXPERIENCE</h3>
         <strong>IDXExchange</strong>
         <article>
-            <p>
-                <span>
-                    <strong>
-                        NLP Engineer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </strong>
-                </span> 
-                <span>
-                    <time datetime="2026-02">Feb 2026</time>-Present
-                </span>
-            </p>
+            <div style="display: flex; justify-content: space-between;">
+                <strong>NLP Engineer</strong>
+                <time>Feb 2026 - Present</time>
+            </div>
             <ul>
                 <li>Building taxonomy framework and structured entity extraction pipeline from unstructured listing remarks.</li>
                 <li>Developing text cleaning and normalization modules for price, measurements, and abbreviations.</li>
@@ -72,17 +59,10 @@
             </ul>
         </article>
                 <article>
-            <p>
-                <span>
-                    <strong>
-                        Data Scientist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </strong>
-                </span> 
-                <span>
-                    <time datetime="2025-09">Sep 2025</time>-
-                    <time datetime="2025-12">Dec 2025</time>
-                </span>
-            </p>
+            <div style="display: flex; justify-content: space-between;">
+                <strong>Data Scientist</strong> 
+                <time>Sep 2025 - Dec 2025</time>
+            </div>
             <ul>
                 <li>Built predictive models on a provided real estate dataset to analyze relationships between property characteristics and prices, achieving strong model fit (R² up to 0.88).</li>
                 <li>Implemented and evaluated gradient boosting models to assess prediction accuracy and reliability(~12% error).</li>
