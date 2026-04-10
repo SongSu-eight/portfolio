@@ -46,7 +46,7 @@ nav a:hover{
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
   border-bottom-color: var(--color-accent);
-  background-color: oklch(from var(--color-accent) 95% 35% h);
+  background-color: oklch(from var(--color-accent) 95% 20% h);
   padding-bottom: 0.1em;
 }
 /* form input,
@@ -191,6 +191,8 @@ body.resume nav {
   white-space: nowrap;
   color: oklch(0.55 0.02 75);
   font-size: 0.9em;
+  font-style: italic;
+  opacity: 0.9;
 }
 
 .resume section {
@@ -199,7 +201,7 @@ body.resume nav {
 }
 
 .resume #EXPERIENCE article {
-  border-top: 1px solid oklch(0.85 0.012 75);
+  border-top: 1.5px solid oklch(0.82 0.015 75);
   padding-top: 1em;
   margin-top: 1em;
 }
