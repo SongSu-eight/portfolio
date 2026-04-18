@@ -238,6 +238,30 @@ html[style*="color-scheme: dark"] .resume #EXPERIENCE article {
   border-top-color: currentColor;
 }
 
+@media (prefers-color-scheme: dark) {
+  body.resume {
+    background-color: Canvas;
+    color: CanvasText;
+  }
+
+  .resume h1,
+  .resume h2,
+  .resume h3,
+  .resume h4 {
+    color: inherit;
+  }
+
+  .resume time {
+    color: inherit;
+    opacity: 0.8;
+  }
+
+  .resume section,
+  .resume #EXPERIENCE article {
+    border-top-color: currentColor;
+  }
+}
+
 /* 4.1 */
 
 /* .dark nav {
