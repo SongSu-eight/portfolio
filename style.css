@@ -281,29 +281,29 @@ html[style*="color-scheme: dark;"] .resume nav {
   border-bottom-color: currentColor;
 }
 @media (prefers-color-scheme: dark) {
-  html[style*="color-scheme: light dark;"] body.resume {
+  html[style*="color-scheme: light dark"] body.resume {
     background-color: Canvas;
     color: CanvasText;
   }
 
-  html[style*="color-scheme: light dark;"] .resume h1,
-  html[style*="color-scheme: light dark;"] .resume h2,
-  html[style*="color-scheme: light dark;"] .resume h3,
-  html[style*="color-scheme: light dark;"] .resume h4 {
+  html[style*="color-scheme: light dark"] .resume h1,
+  html[style*="color-scheme: light dark"] .resume h2,
+  html[style*="color-scheme: light dark"] .resume h3,
+  html[style*="color-scheme: light dark"] .resume h4 {
     color: inherit;
   }
 
-  html[style*="color-scheme: light dark;"] .resume time {
+  html[style*="color-scheme: light dark"] .resume time {
     color: inherit;
     opacity: 0.8;
   }
 
-  html[style*="color-scheme: light dark;"] .resume section,
-  html[style*="color-scheme: light dark;"] .resume #EXPERIENCE article {
+  html[style*="color-scheme: light dark"] .resume section,
+  html[style*="color-scheme: light dark"] .resume #EXPERIENCE article {
     border-top-color: currentColor;
   }
 
-  html[style*="color-scheme: light dark;"] .resume nav {
+  html[style*="color-scheme: light dark"] .resume nav {
     border-bottom-color: currentColor;
   }
 }
