@@ -217,61 +217,6 @@ body.resume nav {
 }
 
 /* dark mode for resume */
-
-html[style*="color-scheme: dark"] body.resume {
-  background-color: Canvas;
-  color: CanvasText;
-}
-
-html[style*="color-scheme: dark"] .resume h1,
-html[style*="color-scheme: dark"] .resume h2,
-html[style*="color-scheme: dark"] .resume h3,
-html[style*="color-scheme: dark"] .resume h4 {
-  color: inherit;
-}
-
-html[style*="color-scheme: dark"] .resume time {
-  color: inherit;
-  opacity: 0.8;
-}
-
-html[style*="color-scheme: dark"] .resume section,
-html[style*="color-scheme: dark"] .resume #EXPERIENCE article {
-  border-top-color: currentColor;
-}
-
-html[style*="color-scheme: dark"] .resume nav {
-  border-bottom-color: currentColor;
-}
-
-@media (prefers-color-scheme: dark) {
-  html[style*="color-scheme: light dark"] body.resume {
-    background-color: Canvas;
-    color: CanvasText;
-  }
-
-  html[style*="color-scheme: light dark"] .resume h1,
-  html[style*="color-scheme: light dark"] .resume h2,
-  html[style*="color-scheme: light dark"] .resume h3,
-  html[style*="color-scheme: light dark"] .resume h4 {
-    color: inherit;
-  }
-
-  html[style*="color-scheme: light dark"] .resume time {
-    color: inherit;
-    opacity: 0.8;
-  }
-
-  html[style*="color-scheme: light dark"] .resume section,
-  html[style*="color-scheme: light dark"] .resume #EXPERIENCE article {
-    border-top-color: currentColor;
-  }
-
-  html[style*="color-scheme: light dark"] .resume nav {
-    border-bottom-color: currentColor;
-  }
-}
-
 html[style*="color-scheme: light;"] body.resume {
   background-color: oklch(0.9 0.004 200);
   color: oklch(0.45 0.04 75);
@@ -302,16 +247,65 @@ html[style*="color-scheme: light;"] .resume time {
   opacity: 0.9;
 }
 
-html[style*="color-scheme: light;"] .resume section {
-  border-top-color: oklch(0.82 0.015 75);
-}
-
+html[style*="color-scheme: light;"] .resume section,
 html[style*="color-scheme: light;"] .resume #EXPERIENCE article {
   border-top-color: oklch(0.82 0.015 75);
 }
 
 html[style*="color-scheme: light;"] .resume nav {
   border-bottom-color: oklch(50% 10% 200 / 40%);
+}
+html[style*="color-scheme: dark;"] body.resume {
+  background-color: Canvas;
+  color: CanvasText;
+}
+
+html[style*="color-scheme: dark;"] .resume h1,
+html[style*="color-scheme: dark;"] .resume h2,
+html[style*="color-scheme: dark;"] .resume h3,
+html[style*="color-scheme: dark;"] .resume h4 {
+  color: inherit;
+}
+
+html[style*="color-scheme: dark;"] .resume time {
+  color: inherit;
+  opacity: 0.8;
+}
+
+html[style*="color-scheme: dark;"] .resume section,
+html[style*="color-scheme: dark;"] .resume #EXPERIENCE article {
+  border-top-color: currentColor;
+}
+
+html[style*="color-scheme: dark;"] .resume nav {
+  border-bottom-color: currentColor;
+}
+@media (prefers-color-scheme: dark) {
+  html[style*="color-scheme: light dark;"] body.resume {
+    background-color: Canvas;
+    color: CanvasText;
+  }
+
+  html[style*="color-scheme: light dark;"] .resume h1,
+  html[style*="color-scheme: light dark;"] .resume h2,
+  html[style*="color-scheme: light dark;"] .resume h3,
+  html[style*="color-scheme: light dark;"] .resume h4 {
+    color: inherit;
+  }
+
+  html[style*="color-scheme: light dark;"] .resume time {
+    color: inherit;
+    opacity: 0.8;
+  }
+
+  html[style*="color-scheme: light dark;"] .resume section,
+  html[style*="color-scheme: light dark;"] .resume #EXPERIENCE article {
+    border-top-color: currentColor;
+  }
+
+  html[style*="color-scheme: light dark;"] .resume nav {
+    border-bottom-color: currentColor;
+  }
 }
 
 /* 4.1 */
