@@ -260,6 +260,10 @@ html[style*="color-scheme: dark"] .resume #EXPERIENCE article {
   .resume #EXPERIENCE article {
     border-top-color: currentColor;
   }
+
+  .resume nav {
+    border-bottom-color: currentColor;
+  }
 }
 
 /* 4.1 */
