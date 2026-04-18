@@ -217,6 +217,48 @@ body.resume nav {
 }
 
 /* dark mode for resume */
+html[style*="color-scheme: light;"] body.resume {
+  background-color: oklch(0.9 0.004 200);
+  color: oklch(0.45 0.04 75);
+}
+
+html[style*="color-scheme: light;"] body.resume nav {
+  color: revert;
+}
+
+html[style*="color-scheme: light;"] .resume h1 {
+  color: oklch(0.68 0.10 85);
+}
+
+html[style*="color-scheme: light;"] .resume h2 {
+  color: oklch(0.6 0.1 75);
+}
+
+html[style*="color-scheme: light;"] .resume h3 {
+  color: oklch(0.52 0.06 75);
+}
+
+html[style*="color-scheme: light;"] .resume h4 {
+  color: oklch(0.45 0.03 75);
+}
+
+html[style*="color-scheme: light;"] .resume time {
+  color: oklch(0.55 0.02 75);
+  opacity: 0.9;
+}
+
+html[style*="color-scheme: light;"] .resume section {
+  border-top-color: oklch(0.82 0.015 75);
+}
+
+html[style*="color-scheme: light;"] .resume #EXPERIENCE article {
+  border-top-color: oklch(0.82 0.015 75);
+}
+
+html[style*="color-scheme: light;"] .resume nav {
+  border-bottom-color: oklch(50% 10% 200 / 40%);
+}
+
 html[style*="color-scheme: dark"] body.resume {
   background-color: Canvas;
   color: CanvasText;
