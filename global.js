@@ -76,7 +76,7 @@ document.body.insertAdjacentHTML(
 );
 
 //4.4 4.5
-let select = document.querySelector("select");
+let select = document.querySelector(".color-scheme select");
 
 if("colorScheme" in localStorage){
     select.value = localStorage.colorScheme;

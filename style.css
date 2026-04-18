@@ -72,9 +72,10 @@ form{
  gap: 1em;
 }
 
-form input,
-form textarea,
-form button{
+input,
+textarea,
+button,
+select {
   font: inherit;
 }
 
@@ -251,8 +252,4 @@ html[style*="color-scheme: dark"] .resume #EXPERIENCE article {
   top: 1rem;
   right: 1rem;
   font-size: 80%;
-}
-
-.color-scheme select{
-  font: inherit;
 }
