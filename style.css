@@ -216,28 +216,6 @@ body.resume nav {
   padding-top: 0;
 }
 /* dark mode for resume */
-html[style*="color-scheme: dark"] body.resume {
-  background-color: Canvas;
-  color: CanvasText;
-}
-
-html[style*="color-scheme: dark"] .resume h1,
-html[style*="color-scheme: dark"] .resume h2,
-html[style*="color-scheme: dark"] .resume h3,
-html[style*="color-scheme: dark"] .resume h4 {
-  color: inherit;
-}
-
-html[style*="color-scheme: dark"] .resume time {
-  color: inherit;
-  opacity: 0.8;
-}
-
-html[style*="color-scheme: dark"] .resume section,
-html[style*="color-scheme: dark"] .resume #EXPERIENCE article {
-  border-top-color: currentColor;
-}
-
 @media (prefers-color-scheme: dark) {
   body.resume {
     background-color: Canvas;
