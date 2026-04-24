@@ -2,43 +2,43 @@
     {
         "title": "Real Estate Price Prediction",
         "year": "2025",
-        "image": "../images/1.png",
+        "image": "/portfolio/images/1.png",
         "description": "This project is about predicting home sale prices in California using machine learning. It cleans and prepares the data, adds useful features like property age and location patterns, and even uses text details from listings to improve predictions. End at up to 0.88 R²"
     },
     {
         "title": "Causal Reasoning Evaluation for LLMs",
         "year": "2026",
-        "image": "../images/2.png",
+        "image": "/portfolio/images/2.png",
         "description": "This project replicated a framework for evaluating how well large language models handle causal reasoning, using Ollama (via its remote model access) to run experiments. It brings together different datasets and tasks like causal inference, counterfactual reasoning, and identifying cause–effect relationships."
     },
     {
         "title": "Insurance Fraud Prediction",
         "year": "2025",
-        "image": "../images/3.png",
+        "image": "/portfolio/images/3.png",
         "description": "This project focuses on predicting insurance fraud using claim and customer-level data. It compares different models and evaluates how claim details versus customer information impact fraud detection accuracy."
     },
     {
         "title": "Clothing Fit Prediction",
         "year": "2025",
-        "image": "../images/4.png",
+        "image": "/portfolio/images/4.png",
         "description": "This project focuses on predicting whether clothes fit small, true to size, or large using customer and product data. It compares different models and explores how body measurements and customer feedback influence the results."
     },
     {
         "title": "Language Modeling",
         "year": "2025",
-        "image": "../images/5.png",
+        "image": "/portfolio/images/5.png",
         "description": "This project focuses on building a language model using a text dataset, including preparing and tokenizing the data for training. It develops baseline and N-gram models to capture word patterns, evaluate sequence probabilities, and generate text."
     },
     {
         "title": "Recipe Preparation Time and Calorie Content",
         "year": "2025",
-        "image": "../images/6.png",
+        "image": "/portfolio/images/6.png",
         "description": "This project focuses on predicting recipe calories using ingredient and nutrition data. It applies Ridge regression with feature engineering and cross-validation, and explores how different factors influence both prediction accuracy and fairness."
     },
     {
         "title": "Multimedia Processing System (Image & Audio)",
         "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "/portfolio/images/7.png",
         "description": "This project focuses on building a multimedia processing system for images and audio using object-oriented design. It implements features like image transformations, edge detection, audio effects, and a KNN-based image classifier to process and analyze visual data."
     },
     {
