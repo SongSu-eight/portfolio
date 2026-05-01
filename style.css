@@ -348,3 +348,63 @@ img {
   height: 100%;
   object-fit: contain;
 }
+
+#projects-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.swatch {
+  display: inline-flex;
+  width: 1.4em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+.legend{
+  display: grid;
+  width: 100%;
+  padding: 1em;
+  list-style: none;
+  border: 2px solid oklch(50% 10% 200 / 40%);
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 0.5em;
+}
+
+.legend-item{
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.container .legend{
+  flex:1;
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
