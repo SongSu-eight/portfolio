@@ -349,10 +349,21 @@ img {
   object-fit: contain;
 }
 
+.project_year{
+  font-family: Baskerville, serif;
+  font-size: 0.9em;
+  font-style: italic;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+  margin-top: 0.5em;
+}
+
 #projects-plot {
   max-width: 20em;
   margin-block: 2em;
-
+  width: clamp(10em, 50%, 20em);
+  height: auto;
+  aspect-ratio: 1;
   overflow: visible;
 }
 
@@ -407,4 +418,7 @@ path {
   &:is(path) {
     fill: var(--color);
   }
+}
+.searchBar{
+  width:100%;
 }
