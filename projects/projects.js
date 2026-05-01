@@ -52,8 +52,14 @@ function filterall() {
 
   renderProjects(filteredProjects, projectsContainer, 'h2');
 
-  renderPieChart(searchedProjects);
-// count manipulation
+  if (selectedYear !== null && filteredProjects.length === 0) {
+    d3.select('svg').selectAll('path').remove();
+    d3.select('.legend').selectAll('li').remove();
+    d3.select('.legend').style('display', 'none');
+  } else {
+    renderPieChart(searchedProjects);
+  }
+  // count manipulation
   const count = projectsContainer.querySelectorAll('article').length;
   title_name.textContent = `${count} Projects`;
   if (count === 0) {
@@ -107,6 +113,7 @@ function renderPieChart(projectsGiven) {
       .html(`<span class="swatch"></span> ${d.label} <em>(${d.value})</em>`);
   });
 }
+
 
 renderPieChart(projects);
 
