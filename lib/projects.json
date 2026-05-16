@@ -1,26 +1,36 @@
-[
+[   {
+        "title": "Bikeways Traffic Visualization",
+        "year": "2026",
+        "image": "/portfolio/images/13.png",
+        "url": "https://songsu-eight.github.io/bikewatching/",
+        "description": "This project bulit an immersive, interactive map visualization of bike traffic in the Boston area during different times of the day."
+    },
     {
         "title": "Real Estate Price Prediction",
         "year": "2025",
         "image": "/portfolio/images/1.png",
+        "url":"https://github.com/SongSu-eight/Close-price-prediction-on-Califronia-Properties",
         "description": "This project is about predicting home sale prices in California using machine learning. It cleans and prepares the data, adds useful features like property age and location patterns, and even uses text details from listings to improve predictions. End at up to 0.88 R²"
     },
     {
         "title": "Causal Reasoning Evaluation for LLMs",
         "year": "2026",
         "image": "/portfolio/images/2.png",
+        "url": "https://github.com/SongSu-eight/Causal_Reasoning_Evaluation_for_LLMs",
         "description": "This project replicated a framework for evaluating how well large language models handle causal reasoning, using Ollama (via its remote model access) to run experiments. It brings together different datasets and tasks like causal inference, counterfactual reasoning, and identifying cause–effect relationships."
     },
     {
         "title": "Insurance Fraud Prediction",
         "year": "2025",
         "image": "/portfolio/images/3.png",
+        "url": "https://github.com/SongSu-eight/Insurance-fraud-detection",
         "description": "This project focuses on predicting insurance fraud using claim and customer-level data. It compares different models and evaluates how claim details versus customer information impact fraud detection accuracy."
     },
     {
         "title": "Clothing Fit Prediction",
         "year": "2025",
         "image": "/portfolio/images/4.png",
+        "url": "https://github.com/SongSu-eight/Fit-level-prediction-for-clothes",
         "description": "This project focuses on predicting whether clothes fit small, true to size, or large using customer and product data. It compares different models and explores how body measurements and customer feedback influence the results."
     },
     {
@@ -64,11 +74,5 @@
         "year": "2024",
         "image": "/portfolio/images/11.png",
         "description": "Repellendus, voluptatibus voluptate possimus nemo, cum, id quam alias nesciunt odio ex adipisci voluptatem eius sunt. Ducimus molestias est, earum, placeat quis nostrum repudiandae unde dolorem aliquid a error consequuntur."
-    },
-    {
-        "title": "Error assumenda inventore dolorum.",
-        "year": "2023",
-        "image": "/portfolio/images/12.png",
-        "description": "Repellat dolorum reprehenderit provident, harum, ratione recusandae ex eum iste illum corporis eius quis necessitatibus enim? Quo illo, consectetur itaque sequi placeat pariatur temporibus sed, voluptate deleniti saepe nam molestiae."
     }
 ]
