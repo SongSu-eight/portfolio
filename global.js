@@ -139,7 +139,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
     const article = document.createElement('article');
 
     const projectLink = item.url
-      ? `<p><a href="${item.url}">Link to project</a></p>`
+      ? `<p><a href="${item.url}" target="_blank">Link to project</a></p>`
       : '';
 
     article.innerHTML = `
