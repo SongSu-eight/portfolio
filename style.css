@@ -550,6 +550,7 @@ circle.selected {
 }
 
 #files {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 4fr;
 
@@ -563,14 +564,6 @@ circle.selected {
     grid-column: 1;
   }
 
-  .loc {
-    display: flex;
-    width: 0.5em;
-    aspect-ratio: 1;
-    background: var(--color);
-    border-radius: 50%;
-  }
-
   dd {
     grid-column: 2;
     display: flex;
@@ -580,6 +573,15 @@ circle.selected {
     gap: 0.15em;
     padding-top: 0.6em;
     margin-left: 0;
+    overflow: visible;
+  }
+
+  .loc {
+    display: flex;
+    width: 0.5em;
+    aspect-ratio: 1;
+    background: var(--color);
+    border-radius: 50%;
   }
 
   dt code {
