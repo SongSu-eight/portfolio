@@ -475,14 +475,16 @@ dl.info[hidden]:not(:hover, :focus-within) {
 }
 
 circle {
-  /* transition: all 200ms, r calc(var(--r) * 100ms); */
-  transition: 200ms;
+  /* transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1); */
+  transition: transform 1000ms ease-out;
   transform-origin: center;
   transform-box: fill-box;
   fill: rgb(44, 94, 185);
+  transform: scale(1);
 
   @starting-style {
     r: 0;
+    transform: scale(0);
   }
 }
 
@@ -578,7 +580,7 @@ circle.selected {
 
   .loc {
     display: flex;
-    width: 0.5em;
+    width: 0.3em;
     aspect-ratio: 1;
     background: var(--color);
     border-radius: 50%;
